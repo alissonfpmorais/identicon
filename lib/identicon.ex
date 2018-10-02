@@ -51,7 +51,8 @@ defmodule Identicon do
   end
 
   @doc """
-    Returns an Identicon.Image struct, containing a list of integers lists representing a grid,
+    Returns an Identicon.Image struct, containing a list of integers lists representing a grid.
+    The `image` is a Identicon.Image struct to generate a grid.
 
   ## Example
 
@@ -82,7 +83,8 @@ defmodule Identicon do
   end
 
   @doc """
-    Returns a row mirrored by the last element,
+    Returns a row mirrored by the last element.
+    The `row` is any list of data
 
   ## Example
 
@@ -101,6 +103,7 @@ defmodule Identicon do
 
   @doc """
     Returns an Identicon.Image struct, containing a filtered (by even) list of integers lists representing a grid.
+    The `image` is a Identicon.Image struct to filter even integers from a grid data.
 
   ## Example
 
