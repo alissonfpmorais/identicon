@@ -1,3 +1,3 @@
 defmodule Identicon.Image do
-  defstruct hex: nil, color: %Identicon.Color{}, grid: nil
+  defstruct hex: [], color: {}, grid: [], painted_cells: [], pixel_map: {}
 end
