@@ -251,7 +251,7 @@ defmodule Identicon do
   """
   def save_image(image, path) do
     case File.write("#{path}.png", image) do
-      :ok -> {:ok, filename}
+      :ok -> {:ok, path}
       {:error, _reason} -> {:error, "Something went wrong" }
     end
   end
